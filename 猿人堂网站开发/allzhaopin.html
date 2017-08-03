@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>招聘</title>
+    <link rel="stylesheet" href="css/font-awesome.css" >
+    <link rel="stylesheet" href="css/frame.css">
+    <link rel="stylesheet" href="css/quill.snow.css"/>
+    <link rel="stylesheet" href="css/log-reg.css">
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/fatieButton.css"/>
+    <link rel="stylesheet" href="css/rementuijian.css"/>
+    <link rel="stylesheet" href="css/renqizhixing.css"/>
+
+    <link rel="stylesheet" href="css/recruit.css"/>
+</head>
+<body>
+<!-- 登录注册弹出框 -->
+   <div class="wrapper clearfix" style="display: none;">
+    <div class="head clearfix">
+    <h1>
+    <a href="javascript:;" class="login red">登录</a>
+    <a  href="javascript:;" class="register red">注册</a>
+    <a href="javascript:;" class="close"></a>
+    </h1>
+    </div><!--end .head-->
+    <div class="log-body">
+    <form action="" method='post'>
+    <input type="email" name="email" class="email required" placeholder="请输入登录邮箱">
+    <div class="tip-eml">
+    </div>
+    <ul class="list-email"></ul>
+    <input type="password" name="password" class="psd required" placeholder="6-16位密码，区分大小写，不能用空格">
+    <div class="tip-psd">
+    </div>
+    <input type="checkbox" checked class="autolog">下次自动登录
+    <a href="javascript:;" class="forget">忘记密码</a>
+    <input type="button" value="登录" class="enter">
+    </form>
+    </div><!--end .log-body-->
+    <div class="reg-body">
+    <form action="" method='post'>
+    <input type="email" name="email" class="email requires" placeholder="请输入登录邮箱">
+    <div class="tip-eml">
+    </div>
+    <ul class="list-email"></ul>
+    <input type="text" name="code" class="code required" id="input1" placeholder="请输入验证码">
+    <input type="text" onclick="createCode()" readonly="readonly" id="checkCode" class="unchanged" style="width: 100px; margin-left:15px;padding:10px 5px;background: url(images/yzm.gif);" />
+    <div class="tip-cod">
+    </div>
+    <input type="button" onclick="validate();" value="注册" class="signup">
+    </form>
+    </div><!--end .reg-body-->
+    </div><!--end .wrapper 登录注册-->
+    <div class="layer"></div><!--end .layer 遮罩层-->
+
+    <div class="container">
+        <div class="header0">
+            <div class="header-all clearfix">
+                <div class="nav clearfix">
+                            <a href="javascript:;" class="logo"></a>
+                            <ul class="nav-list fl">
+                                <li><a href="javascript:;">课程</a></li>
+                                <li><a href="allluntan.html">猿之家</a></li>
+                                <li><a href="javascript:;">职业规划</a></li>
+                            </ul>
+                            <div class="nav-search fr">
+                            <div class="search-tag">
+                                <a href="javascript:;">课程</a>
+                                <a href="javascript:;">讲师</a>
+                            </div>
+                                <form action="" class="clearfix">
+                                    <input type="text" class="nav-search-text"/>
+                                   <button type="submit" class="nav-search-btn"></button>
+                                </form>
+                            </div>
+                            <div class="loginbox fr">
+                                <ul class="nav-login-list">
+                                    <li><a href="javascript:;" class="log-in">登录</a></li>
+                                    <li><a href="javascript:;" class="reg">注册</a></li>
+                                </ul>                                
+                            </div>
+
+                        </div>
+            </div><!--end .header-all-->    
+        </div><!--end .header0-->
+        <div class="center clearfix">
+            <div class="left">
+                <div class="recruit-container">
+                    <div class="recruit-content">
+                        <!-- 标题 -->
+                        <!-- arrow是为了做尖角效果 -->
+                        <h3>
+                            <p>高级工程师</p>
+                            <span><div class="arrow"></div><i></i></span>
+                        </h3>
+                        <!-- 单位及时间 -->
+                        <div class="recruit-company">
+                        <!-- zhaopinf.js中有内容 -->
+                        </div>
+                        <!-- 文本框 -->
+                        <div id="recruit-text" class="ql-snow">
+                            <div class="ql-editor">
+                            </div>
+                        </div>
+                        <!-- 提交按钮 -->
+                        <div class="recruit-submit-box">
+                            <input type="submit" value="立即申请" class="recruit-button"/>
+                        </div>
+                        <p class="recruit-like"><i class="recruit-icon like"></i><a href="javascript:;">喜欢收藏</a></p>
+                        <!-- 申请者头像列表 -->
+                        <div class="user-list-img clearfix">
+                            <i class="border-left"></i>
+                            <div class="img">
+                                <a href="javascript:;"></a>
+                                <a href="javascript:;"></a>
+                                <a href="javascript:;"></a>
+                                <a href="javascript:;"></a>
+                                <a href="javascript:;"></a>
+                                <a href="javascript:;"></a>
+                                <a href="javascript:;"></a>
+                                <a href="javascript:;"></a>
+                                <a href="javascript:;"></a>
+                                <a href="javascript:;"></a>
+                                <a href="javascript:;"></a>
+                                <a href="javascript:;"></a>
+                                <a href="javascript:;"></a>
+                                <a href="javascript:;"></a>
+                            </div>
+                            <i class="border-right"></i>
+                        </div>
+                        <!-- 已申请弹窗 -->
+                        <div class="wrapper2"></div>
+                        <div class="recruit-box">
+                        <div class="title"><p>已申请人员<a href="javascript:;" id="close"></a></p></div>                 
+                        <div class="recruit-box-content">
+                        </div>        
+                        </div>
+                    </div>
+                </div>      
+            </div>
+            <div class="right">
+              <div class="fatieButton0">
+                    <div class="fatieButton">
+                    <a href="javascript:;">发帖</a>
+                </div><!--end .fatieButton-->
+              </div><!-- end .fatieButton0 -->
+              <div class="rementuijian0">
+                    <div class="rementuijian">
+                    <h3>热门推荐</h3>
+                    <ul>
+                    <!-- rementuijianf.js有内容 -->
+                    </ul>
+                </div><!--end .rementuijian-->
+              </div>
+              <div class="renqizhixing0">
+                <div class="renqizhixing clearfix">
+                    <h3>人气之星</h3>
+                    <ul class="list1">
+                        <!-- renqizhixingf.js有内容 -->
+                    </ul>
+                </div><!--end .renqizhixing-->    
+              </div>
+            </div><!--end .right-->   
+        </div><!--end .center-->
+        <div class="footer0">
+           <div class="footer clearfix">
+            <div class="footerwrap">
+            <div class="footerintro fl">
+                <ul class="list-footer">
+                <li><a href="javascript:;">网站首页</a></li>
+                <li><a href="javascript:;">企业合作</a></li>
+                <li><a href="javascript:;">人才招聘</a></li>
+                <li><a href="javascript:;">联系我们</a></li>
+                <li><a href="javascript:;">讲师招聘</a></li>
+                <li><a href="javascript:;">常见问题</a></li>
+                <li><a href="javascript:;">意见反馈</a></li>
+                <li><a href="javascript:;">友情链接</a></li>
+                </ul>
+                <p>Copyright 2017 yuanzhijia.com All Rights Reserved | 京ICP备 13046642号-2</p>
+            </div><!--end .footerintro-->
+            <div class="footerus fr">
+                <a href="javascript:;" class="item " title="微信">
+                    <i class="fa fa-weixin icon"><span class="qrcode"></span></i>
+                    
+                </a>
+                <a href="javascript:;" title="新浪微博">
+                    <i class="fa fa-weibo icon"></i>
+                </a>
+                <a href="javascript:;" title="QQ空间">
+                   <i class="fa fa-qq icon"></i>
+                </a>
+            </div><!--end .footerus-->
+            </div><!--end .footerwrap-->
+            </div><!--end .footer-->     
+        </div><!--end .footer0-->
+    </div><!--end .container-->
+
+       <!-- 富文本框 -->
+    <div class="page" style="display: none;"></div>
+    <div id="standalone-container" style="display: none;">
+        <div class="fatiebox">
+            <form class="clearfix">
+                <select  class="select1 fl">
+                    <option value="1">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;社交&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </option>
+                    <option value="2" selected="selected">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;招聘&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </option>
+                    <option value="3">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;求职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </option>
+                    <option value="4">&nbsp;项目信息&nbsp;&nbsp;</option>
+                </select>
+                <textarea name="" class="textarea1 fr" placeholder="请输入帖子标题,最多不超过40个字"></textarea>
+            </form>
+        </div>
+        <div id="toolbar-container">
+            <span class="ql-formats">
+            <select class="ql-size"></select>
+        </span>
+        <span class="ql-formats">
+            <button class="ql-bold"></button>
+            <button class="ql-italic"></button>
+            <button class="ql-underline"></button>
+            <button class="ql-strike"></button>
+        </span>
+        <span class="ql-formats">
+            <select class="ql-color"></select>
+            <select class="ql-background"></select>
+        </span>
+        <span class="ql-formats">
+            <button class="ql-header" value="1"></button>
+            <button class="ql-header" value="2"></button>
+            <button class="ql-blockquote"></button>
+            <button class="ql-code-block"></button>
+        </span>
+        <span class="ql-formats">
+            <button class="ql-list" value="ordered"></button>
+            <button class="ql-list" value="bullet"></button>
+            <button class="ql-indent" value="-1"></button>
+            <button class="ql-indent" value="+1"></button>
+        </span>
+        <span class="ql-formats">
+            <select class="ql-align"></select>
+        </span>
+        <span class="ql-formats">
+            <button class="ql-link"></button>
+            <button class="ql-image"></button>
+        </span>
+    </div>
+    <div id="editor-container"></div>
+    <div class="ql-footer clearfix">
+        <div class="yanzhengma fl">
+            <input type="text" placeholder="请输入验证码">    
+            <a href="javascript:;" id="math"></a>
+        </div>
+        <div class="fr">
+            <button id="zhiding">置顶</button>
+            <button type="submit" id="fabu">发布</button>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="script/jquery.js"></script>
+<script src="script/headerf.js"></script>
+<script src="script/header-search.js"></script>
+
+<script src="script/log-reg.js"></script>
+<script src="script/yzcode.js"></script>
+<script src="script/login.js"></script>
+<script src="script/email.js"></script>
+
+<script src="script/fatieButtonf.js"></script>
+<script type="text/javascript" src="script/quill.min.js"></script>
+<script src="script/yanzhengma.js"></script>
+
+<!-- 内容区 -->
+<script src="script/zhaopinf.js"></script>
+
+<!-- <script src="script/rementuijian.js"></script> -->
+<script src="script/rementuijianf.js"></script>
+
+<!-- <script src="script/renqizhixing.js"></script> -->
+<script src="script/renqizhixingf.js"></script>
+<!-- <script src="script/fatieButton.js"></script> -->
+
+<script src="script/footerf.js"></script>
+</html>

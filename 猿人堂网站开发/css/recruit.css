@@ -1,0 +1,291 @@
+﻿*{margin: 0;padding: 0;}
+.clearfix{
+	display: table;
+	content: ' ';
+	clear:both;
+}
+.recruit-container{
+	width: 875px;
+	/*margin: 0 auto;*/
+	padding: 30px;
+	border:1px solid #E7E9EA;
+	box-sizing: border-box;
+        	-webkit-border-radius: 5px;
+        	-moz-border-radius: 5px;
+        	-ms-border-radius: 5px;
+        	-o-border-radius: 5px;
+        	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.2);
+	height: 855px;
+}
+/*标题*/
+.recruit-content h3 p{
+	display: inline-block;
+	font-size: 24px;
+	font-family: '微软雅黑';
+	font-weight: normal;
+	color: #333333;
+}
+/*标签*/
+.recruit-content h3 span{
+	font-size: 14px;
+	font-family: '微软雅黑';
+	color: #FFFFFF;
+	background-color: #0B9F5F;
+	padding: 1px 3px;
+        	-webkit-border-radius: 2px;
+        	-moz-border-radius: 2px;
+        	-ms-border-radius: 2px;
+        	-o-border-radius: 2px;
+        	border-radius: 2px;
+	position: absolute;
+	margin-top: 8px;
+	margin-left: 8px;
+	font-weight: normal;
+}
+.recruit-content h3 span i{
+	font-style: normal;
+}
+/*小尖角*/
+.recruit-content h3 span .arrow{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: -11px;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	border:solid 4px;
+	border-color:#FFFFFF #0B9F5F #FFFFFF #FFFFFF ;
+}
+/*单位及时间*/
+.recruit-content>p{
+	font-size: 12px;
+	font-family: '微软雅黑';
+	margin: 10px 0;
+	color: #666666;
+}
+.recruit-company p{
+	font-size: 12px;
+	font-family: '微软雅黑';
+	margin: 10px 0;
+	color: #666666;	
+}
+/*小图标*/
+i.recruit-icon{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+/*用户的小图标*/
+.recruit-content p i.recruit-icon.user{
+	background: url('../images/post-user.png') no-repeat;
+	margin-bottom: -5px;
+	margin-right: 5px;
+}
+/*时间的小图标*/
+.recruit-content p i.recruit-icon.time{
+	background: url('../images/time.png') no-repeat;
+	margin-bottom: -4px;
+	margin-left: 12px;
+	margin-right: 3px;
+}
+/*文本框*/
+.recruit-content #recruit-text{
+	min-height: 490px;
+	font-family: '微软雅黑';
+	font-size: 12px;
+	color: #333333;
+	/*padding-top: 15px;*/
+}
+#recruit-text .ql-editor{
+	white-space: normal;
+	font-family: '微软雅黑';
+	color: #999999;
+}
+/*提交申请按钮*/
+.recruit-content .recruit-submit-box{
+	margin-top: 20px;
+	text-align: center;
+}
+.recruit-content .recruit-submit-box .recruit-button{
+	cursor: pointer;
+	text-align: center;
+        	-webkit-border-radius: 4px;
+        	-moz-border-radius: 4px;
+        	-ms-border-radius: 4px;
+        	-o-border-radius: 4px;
+        	border-radius: 4px;
+	padding: 6px 20px;
+	font-family: '微软雅黑';
+	font-size: 22px;
+	border:none;
+	background: #F24040;
+	color: #FFFFFF;
+	/*文字效果*/
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.recruit-content .recruit-submit-box .recruit-button:hover{
+	text-shadow: none;
+	background-color: #999999;
+	/*color: #999999;*/
+	/*border: 1px solid #999999;*/
+}
+/*喜欢收藏*/
+.recruit-content p.recruit-like{
+	text-align: center;
+}
+.recruit-content p.recruit-like a{
+	font-size: 12px;
+	font-family: '微软雅黑';
+	color: #666666;
+	text-decoration: none;
+}
+.recruit-content .recruit-like i.like{
+	background: url('../images/collect.png') no-repeat;
+	margin-bottom: -6px;
+}
+/*申请者头像列表边框*/
+.recruit-content .user-list-img{
+	width: 100%;
+	margin-top: 60px;
+	/*text-align: center;*/
+	position: relative;
+}
+.recruit-content .user-list-img i.border-left{
+	display: inline-block;
+	width: 40px;
+	height: 71px;
+	background:url('../images/border-left.png') no-repeat;
+	float: left;
+}
+.recruit-content .user-list-img i.border-right{
+	display: inline-block;
+	width: 40px;
+	height: 71px;
+	background:url('../images/border-right.png') no-repeat;
+	float: right;
+}
+/*申请者头像*/
+.recruit-content .user-list-img .img{
+	max-width: 500px;
+	height: 40px;
+	margin: 0 auto;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	margin-left: 125px;
+	margin-top: 15px;
+	/*border: 1px solid red;*/
+}
+.recruit-content .user-list-img .img a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+        	-webkit-border-radius: 20px;
+        	-moz-border-radius:20px;
+        	-ms-border-radius: 20px;
+        	-o-border-radius: 20px;
+        	border-radius: 20px;
+	background: url('../images/recruit-user.png') no-repeat;
+	background-size: 40px 40px;
+	background-position: 50% 50%;
+	margin: 0px 2px;
+}
+/*遮罩层*/
+.recruit-content .wrapper2{
+	position: fixed;
+	left: 0;right: 0;
+	top: 0;bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+	z-index: 5;
+}
+/*已申请弹窗*/
+.recruit-content .recruit-box{
+	width: 450px;
+        	-webkit-border-radius: 5px;
+        	-moz-border-radius: 5px;
+        	-ms-border-radius: 5px;
+        	-o-border-radius: 5px;
+        	border-radius: 5px;
+	background-color: #FFFFFF;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	height: 82%;
+	margin-left: -261px;
+	margin-top: -20%;
+	z-index: 5;
+	display: none;
+	box-sizing: border-box;
+}
+.recruit-content .recruit-box .title{
+	position: relative;
+	font-family: '微软雅黑';
+	font-size: 22px;
+	color: #333333;
+	text-align: center;
+	height: 6%;
+	padding: 2% 0;
+	/*line-height: 56px;*/
+	background-color: #F6F6F6;
+	        	-webkit-border-radius: 5px 5px 0px 0px;
+        	-moz-border-radius: 5px 5px 0px 0px;
+        	-ms-border-radius: 5px 5px 0px 0px;
+        	-o-border-radius: 5px 5px 0px 0px;
+        	border-radius: 5px 5px 0px 0px;
+
+}
+.recruit-content .recruit-box .title #close{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: url('../images/close.png') no-repeat;
+	float: right;
+	margin: 5px;
+}
+.recruit-content .recruit-box-content{
+	/*height: 480px;*/
+	height:90%;
+	box-sizing: border-box;
+	overflow: auto;
+	padding: 10px 0px 20px;
+}
+.recruit-content .recruit-box-content a{
+	font-family: '微软雅黑';
+	text-decoration: none;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	padding: 8px 42px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.recruit-content .recruit-box-content a i.user-img{
+	display: inline-block;
+	float: left;
+	width: 40px;
+	height: 40px;
+        	-webkit-border-radius: 20px;
+        	-moz-border-radius: 20px;
+        	-ms-border-radius: 20px;
+        	-o-border-radius: 20px;
+        	border-radius: 20px;
+	background: url('../images/recruit-user.png') no-repeat;
+	background-size: 40px 40px;
+	background-position: 50% 50%;
+}
+.recruit-content .recruit-box-content a span.user-name{
+	font-size: 18px;
+	color: #333333;
+	margin-left: 20px;
+}
+.recruit-content .recruit-box-content a span.user-time{
+	font-size: 16px;
+	color: #999999;
+	float: right;
+}
+.recruit-content .recruit-box-content a:hover{
+	background-color: #F7F9FC;
+}

@@ -1,0 +1,157 @@
+﻿*{margin: 0;padding: 0;}
+a{
+	text-decoration: none;
+}
+.user-content{
+	/*margin: 0 auto;*/
+	width: 875px;
+	height: 855px;
+	border: 1px solid #E7E9EA;
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+	box-sizing: border-box;
+}
+/*头部背景图片*/
+.user-header{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	background: url('../images/user-header.png') no-repeat;
+	overflow: hidden;
+
+}
+/*头部用户头像*/
+.user-header a p.user-img{
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-ms-border-radius:100px;
+	-o-border-radius:100px;
+	border-radius:100px;
+	overflow: hidden;
+	background: url('../images/me.png') no-repeat;
+	background-size: 100px 100px;
+	background-position: center center;
+	margin-left: 387.5px;
+	margin-top: 16px;
+	text-indent: -9999px;
+	behavior:url('ie-css3.htc');
+}
+/*头部用户名*/
+.user-header a p.user-name{
+	font-family: '微软雅黑';
+	text-align: center;
+	font-size: 24px;
+	color: #000;
+	font-weight: bold;
+	margin-top: 5px;
+	color: #333333;
+}
+/*头部用户应聘岗位*/
+.user-header a p.user-item{
+	font-family: '微软雅黑';
+	text-align: center;
+	font-size: 18px;
+	color: #333333;
+}
+/*内容*/
+.user-content ul{
+	padding: 20px;
+}
+.user-content ul li{
+	list-style-type: none;	
+}
+/*内容栏标题*/
+.user-content ul li p.user-title{
+	font-family: '微软雅黑';
+	font-size: 16px;
+	color: #9f0b0b;
+	border-bottom: 1px solid #CCCCCC;
+	line-height: 20px;
+}
+/*内容栏前添加小图标*/
+.user-content ul li p.user-title:before{
+	content: ' ';
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background: url('../images/list-style.png') no-repeat;
+	/*margin-left: 10px;*/
+	padding-left: 8px;
+	margin-bottom: 2px;
+}
+/*英文标题*/
+.user-content ul li p.user-title span{
+	font-family: 'Arial';
+	font-size: 14px;
+	color: #999999;
+	margin-left: 2px;
+}
+.user-content ul li p.user-title span i{
+	font-style: normal;
+	font-size: 12px;
+	font-family: '微软雅黑';
+}
+/*斜线符*/
+.user-content ul li p.user-title span:before{
+	content:' ';
+	display: inline-block;
+	width: 8px;
+	height: 13px;
+	background: url('../images/itatic.png') no-repeat;
+	margin-bottom: -1px;
+	margin-left: 2px;
+}
+/*内容区*/
+.user-content ul li #user-text{
+	/*padding: 17px;*/
+	font-family: '微软雅黑';
+	font-size: 16px;
+	color: #333333;
+}
+.user-content ul li .user-about-me #user-text1{
+	min-height: 235px;
+}
+#user-text1 .ql-editor{
+	font-size: 13px;
+	font-family: '微软雅黑';
+	color: #999999;
+	white-space: normal;
+}
+.user-content ul li .user-work-exprience #user-text2{
+	min-height: 145px;
+}
+table{
+	padding: 12px 15px;
+}
+table tr td{
+	text-align: center;
+	color: #999999;
+	font-size: 13px;
+	width: 270px;
+	text-align: center;
+	line-height: 30px;
+	/*border:1px solid red;*/
+	text-align: center;
+	font-family: '微软雅黑';
+}
+table tr td:first-of-type{
+	text-align: left;
+}
+table tr td:last-of-type{
+	text-align: right;
+}
+.user-content ul li .user-project-exprience #user-text3{
+	min-height: 180px;
+	background: url('../images/no-content.png') no-repeat;
+	background-position: center;
+
+}

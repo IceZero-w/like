@@ -1,0 +1,58 @@
+﻿.meirituijian a{
+	text-decoration: none;
+	color: #12937C;
+}
+.meirituijian a:hover{
+	text-decoration: underline;
+	color: #ED585C;
+}
+.meirituijian .box{
+	width: 220px;
+	height: 282px;
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.meirituijian .box1{
+	width: 100%;
+	height: 220px;
+}
+.meirituijian .box2{
+	width: 100%;
+	height: 30px;
+}
+.meirituijian .box3{
+	width: 100%;
+	height: 32px;
+}
+.meirituijian .box .div2 a{
+	font-size: 14px;
+}
+.meirituijian .box .div3{
+	font-size: 12px;
+	padding-top: 10px;
+}
+.meirituijian .box .div3 a{
+	font-size: 12px;
+}
+.meirituijian .box .div3 span{
+	margin-right: 5px;
+}
+.meirituijian .box .div3 a i{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url('../images/level_icon.png');
+	background-position: 0px -22px;
+	position: relative;
+	top: 5px;left: 5px;
+}
+.meirituijian .box{
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.meirituijian .box0{
+	margin-right: -20px;
+	margin-top: -10px;
+}
+

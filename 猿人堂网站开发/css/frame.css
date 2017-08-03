@@ -1,0 +1,68 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+/*清理浮动*/
+.clearfix{
+	content: ' ';
+	display: table;
+	clear: both;
+	overflow: hidden;
+}
+/*左右浮动*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*a处理*/
+a{
+
+}
+/*整体布局*/
+.container{
+	background-color: #DADBDC;
+}
+.header0{
+/*	width: 1920px;
+	margin:0 auto;*/
+}
+.center{
+	width: 1200px;
+	/*background-color: #ADFF2F;*/
+	margin: 0 auto;
+	margin-top: 30px;
+	/*margin-bottom: 880px;*/
+	padding-bottom: 5px;
+}
+.left{
+	width: 880px;
+/*	height: 855px;*/
+	float: left;
+	box-sizing: border-box;
+}
+.right{
+	width: 300px;
+	float: right;
+	margin-right: 5px;
+	height: 855px;
+	/*border: 1px solid red;*/
+	box-sizing: border-box;
+}
+.footer0{
+
+	margin-top: 80px;
+}
+
+.rementuijian0{
+	margin-top: 25px;
+	height: 325px;
+	/*overflow: hidden;*/
+}
+.renqizhixing0{
+	margin-top: 25px;
+	height: 432px;
+	/*overflow: hidden;*/
+
+}

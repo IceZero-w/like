@@ -1,0 +1,33 @@
+﻿    .menu-nav{
+        width: 1200px;
+        height: 50px;
+        line-height: 50px;
+        /*border:1px solid red;*/
+        font-size: 14px;
+        margin:0 auto;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .menu-nav ul li{
+        display: inline-block;
+        margin: 0px 50px;
+    }
+    .menu-nav ul li a{
+        display: block;
+        text-decoration: none;
+        font-family: "微软雅黑";
+        font-size: 14px;
+        color: #000000;
+        padding: 0px 15px;
+        font-weight: normal;
+        /*border: 1px solid red;*/
+    }
+    .menu-nav ul li a:hover{
+        color: #9F0B0B;
+        border-bottom:2px solid #A21515;
+        font-weight: bold;
+    }
+    .menu-nav ul li.active a{
+        border-bottom:2px solid #A21515;
+        font-weight: bold;
+    }

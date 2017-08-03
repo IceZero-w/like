@@ -1,0 +1,240 @@
+.logo a:after{
+  display: none;
+}
+.content{
+  width: 875px;
+  height: 475px;
+  box-sizing: border-box;
+}
+section{
+  height: 537px;
+  padding: 30px;
+}
+.container{
+  height: 768px;
+  background: url("../images/homemain.png") no-repeat;
+  background-size: 1003px 768px;
+  position: relative;
+}
+.container:before{
+  content: '';
+  width: 177px;
+  height: 60px;
+  background: url("../images/树枝1.png") no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.hleft{
+  width: 535px;
+  /*border: 1px solid red;*/
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.hleft a{
+  /*display:inline-block;*/
+  width: 128px;
+  height: 82px;
+  border: 1px solid #EFEFEF;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  margin-right: 5.5px;
+  box-shadow: 1px 1px 1px solid rgba(0, 0, 0, 0.5);
+  margin-top: 5px;
+}
+.hleft a img{
+  margin: 4px auto;
+}
+
+.hright{
+  width: 310px;
+  height: 455px;
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+  position: relative;
+  /*overflow: hidden;*/
+
+}
+.hright:after{
+  content: '';
+  width: 176px;
+  height: 200px;
+  background: url("../images/树枝2.png") no-repeat;
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  overflow: hidden;
+  background-position: 72px 32px;
+  z-index: 3;
+}
+.news p{
+  color: #000;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  position: relative;
+  padding-left: 25px;
+  height: 25px;
+  border-bottom: 1px solid #E3E3E3;
+}
+.news p:before{
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 19px;
+  background: url("../images/叶子.png") no-repeat;
+  left: 0;
+  top: 0;
+}
+.news p i{
+  font-size: 13px;
+  margin-left:10px;
+  color: #3F3F3F;
+  font-weight: normal;
+}
+.news p i span{
+  color: #618200;
+}
+.news p>a{
+  float: right;
+  font-size: 8px;
+  background-color: #353535;
+  color:#fff;
+  padding: 0px 5px;
+  border-radius: 5px;
+    font-weight: normal;
+  position: relative;
+  top: 3px;
+}
+.news figure{
+  margin: 10px 0px;
+  
+}
+.news figure>img{
+  margin-left: 10px;
+  position: relative;
+  top: 18px;
+}
+.news figcaption ul{
+  list-style: square;
+  margin-left: 15px;
+  font-size: 8px;
+}
+.news figcaption ul li a{
+  font-size: 11px;
+  color: #444444;
+  display: block;
+  height: 20px;
+  letter-spacing: 1px;
+  /*line-height: 20px;*/
+}
+.news figcaption ul li a span{
+  color: #fff;
+  font-size: 8px;
+  background-color: #B26A56;
+  margin-left: 10px;
+  padding: 0px 5px;
+  border-radius: 5px;
+  position: relative;
+  top: -3px;
+}
+.news .figure2{
+  position: relative;
+}
+.news .figure2 img{
+  top: 0px;
+}
+.news figure.figure2>span:first-of-type{
+  position: absolute;
+  font-size: 10px;
+  color: #C6C6C5;
+  top: 5px;
+  right: 10px;
+}
+.news figure.figure2>span:last-of-type{
+  position: absolute;
+  font-size: 20px;
+  color: #9D7A04;
+    top:20px;
+    right: 10px;
+}
+.news figure.figure2>span:last-of-type i{
+  font-size: 20px;
+  color: #D7C894;
+  font-style: normal;
+}
+.news .figure2 ul{
+  list-style: none;
+  margin-left: 0px;
+    margin-right: -6px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.news .figure2 ul li{
+  float:left;
+  border: 1px solid #C7C7C7;
+  background-color: #F3F3F3;
+  margin-right: 6px;
+}
+.figure2 ul li img{
+  padding: 5px;
+
+}
+.server p{
+  font-size: 18px;
+  color: #1D1D1D;
+}
+.server p span{
+  color: #fff;
+  font-size: 12px;
+  padding: 0px 20px;
+  background-color: #709037;
+  text-align: center;
+  border-radius: 3px;
+  margin-right: 10px;
+  letter-spacing: 1px;
+}
+.server p i{
+  font-style: normal;
+  border-bottom: 1px solid #BDBDBD;
+}
+.tishi{
+  position: absolute;
+  z-index: 5;
+}
+.box{
+  width: 60px;
+  /*height: 80px;*/
+  text-align: center;
+  float: left;
+  margin-top: 10px;
+  margin-right: 24px;
+  position: relative;
+}
+.box a img{
+  width: 50px;
+  height: 46px;
+}
+.box a{
+  color: #3B3B3B;
+  letter-spacing: 1px;
+}
+.box a>p:last-of-type{
+  color: #BBBBBB;
+  font-size: 12px;
+}
+.box:after{
+  display: inline-block;
+  content: '';
+  width: 16px;
+  height: 26px;
+  position: absolute;
+  background: url("../images/向右.png") no-repeat;
+  right: -20px;
+  bottom: 10px;
+}
+.box3::after{
+  display: none;
+}

@@ -1,0 +1,23 @@
+﻿    .fatieButton a{
+        display: block;
+        width: 300px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        color: #ffffff;
+        font-family: '微软雅黑';
+        background-color: #9F0B0B;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+    }
+    .fatieButton a:before{
+        content: ' ';
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background: url('../images/发帖.png') no-repeat;
+        position: relative;
+        right: 10px;
+    }

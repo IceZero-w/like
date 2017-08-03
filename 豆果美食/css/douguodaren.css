@@ -1,0 +1,77 @@
+﻿.douguodaren{
+	position: relative;
+	position: relative;
+}
+.douguodaren a.a2{
+	position: absolute;
+	top: 0;right: 0;
+	display: block;
+	width: 68px;
+	height: 28px;
+	color: white;
+	background-color: #5F9775;
+	line-height: 28px;
+	text-align: center;
+	text-decoration: none;
+}
+.douguodaren a.a2:hover{
+	background-color: #8CCCC1;
+}
+.douguodaren ul{
+	width: 300px;
+	height: 406px;
+	background-color: #F4F0EC;
+	margin-top: 10px;
+	padding: 0px 16px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+}
+.douguodaren ul li{
+	width: 268px;
+	height: 81px;
+	list-style: none;
+	/*border:1px solid red;*/
+	border-bottom: 1px dotted #D5D5C4;
+	box-sizing: border-box;
+	position: relative;
+	padding-top: 15px;
+}
+.douguodaren ul li p{
+	color: #999999;
+	font-size: 12px;
+	margin-top: 2px;
+}
+.douguodaren ul img{
+	margin-right: 10px;
+
+}
+.douguodaren ul li div.div1{
+	width: 150px;
+	height: 60px;
+}
+.douguodaren ul li a.a4{
+	display: block;
+	width: 70px;
+	height: 24px;
+	position: absolute;
+	right: 0;
+	bottom: 30px;
+	text-align: center;
+	line-height: 24px;
+	background-color: #E9E1DA;
+	color: #796450;
+	text-decoration: none;
+}
+.douguodaren ul li a.a4:hover{
+	background-color: #F1EDE7;
+}
+.douguodaren ul li a i{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url('../images/level_icon.png');
+	background-position: 0px -22px;
+	position: relative;
+	top: 5px;left: 5px;
+}

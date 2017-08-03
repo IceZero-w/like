@@ -1,0 +1,19 @@
+﻿.jingcaicaidan ul{
+	width: 300px;
+	height: 222px;
+	background-color: #F4F0EC;
+	padding:10px 20px;
+	/*border: 1px solid red;*/
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+.jingcaicaidan ul li{
+	width: 268px;
+	height: 41px;
+	line-height: 41px;
+	font-size: 3px;
+	border-bottom: 1px dotted #D5D5C4; 
+}
+.jingcaicaidan ul li:last-of-type{
+	border: none;
+}

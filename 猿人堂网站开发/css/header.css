@@ -1,0 +1,136 @@
+﻿*{padding: 0;margin: 0;}
+/*清除浮动*/
+.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+/*左右浮动*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*a标签处理*/
+a{
+	text-decoration: none;
+}
+/*头部内容*/
+.header-all{
+	background-color: #000000;
+	width: 100%;
+	z-index: 4;
+	position: relative;
+}
+.nav .logo{
+	float: left;
+	background: url('../images/logo.png') no-repeat;
+	width: 120px;
+	height: 60px;
+	/*margin-top: 5px;*/
+	margin-right:20px;
+	margin-left: 20px;
+	position: relative;
+	top: -3px;
+}
+.nav{
+	width: 100%;
+	margin:0 auto;
+}
+.nav .nav-list{
+	list-style-type: none;
+}
+.nav .nav-list li{
+	float: left;
+}
+.nav .nav-list li a{
+	display: block;
+	width: 100px;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.nav .nav-list li a:hover{
+	background-color: #1E2326;
+}
+.nav .nav-search{
+	/*float: right;*/
+	margin-top: 11px;
+	margin-right: 158px;
+	position: relative;
+}
+.loginbox{
+	margin-right: -378px;
+	/*padding-right: 20px;*/
+}
+.search-tag{
+	position: absolute;
+	top: 7px;
+	z-index: 3;
+}
+.search-tag a{
+	color: #93999f;
+	background-color: #2B333B;
+	padding: 5px 8px;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	/*border-radius: 2px;*/
+}
+.nav .nav-search .nav-search-text{
+	width: 240px;
+	height: 38px;
+	line-height: 38px;
+	float: left;
+	font-size: 14px;
+	color: #999999;
+	padding-left: 10px;
+	border: 0 solid #fff;
+	border-bottom: 1px solid #d9dde1;
+	color: #71777d;
+	background-color: transparent;
+
+	box-sizing: border-box;
+
+}
+.nav .nav-search .nav-search-btn{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	background: url('../images/search.png') no-repeat;
+	margin-left: -25px;
+	margin-top: 8px;
+	cursor: pointer;
+	border-style: none;
+}
+.nav .nav-login-list{
+	list-style-type: none;
+	float: right;
+}
+.nav .nav-login-list li{
+	float: left;
+}
+.nav .nav-login-list li a{
+	display:block;
+	width: 60px;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	color:#787d82;
+	text-decoration: none;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 14px;
+}
+.nav .nav-login-list li a:hover{
+	background-color: #1E2326;
+	font-weight: bold;
+	color: #fff;
+}
+.nav .nav-login-list li:first-child a:hover{
+	background-color: #ec1500;
+}

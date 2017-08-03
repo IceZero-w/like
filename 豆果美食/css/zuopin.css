@@ -1,0 +1,38 @@
+﻿.zuopin .box{
+	border-bottom: 1px solid #E4E4E4;
+	padding: 20px 0px;
+}
+.zuopin .box .div1{
+	width: 280px;
+	height: 100px;
+	/*border:1px solid red;*/
+}
+.zuopin .box .div1 div{
+	width: 180px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.zuopin .box .div1 a.a1{
+	font-size: 14px;
+}
+.zuopin .box .div1 p{
+	font-size: 12px;
+	color: #999999;
+	margin-top: 5px;
+}
+.zuopin .box .div2{
+	width: 320px;
+	height: 100px;
+}
+.zuopin .box .div2 div{
+	margin-right: -10px;
+}
+.zuopin .box .div2 a{
+	display: block;
+	width: 100px;
+	height: 100px;
+	/*border: 1px solid red;*/
+	float: left;
+	box-sizing: border-box;
+	margin-right: 10px;
+}

@@ -1,0 +1,58 @@
+﻿.gouhuojingxuan{
+	margin-top: 30px;
+	
+}
+.gouhuojingxuan .box{
+	width: 224px;
+	height: 338px;
+	/*border:1px solid red;*/
+	float: left;
+	margin:15px 0px;
+	margin-right: 14px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.gouhuojingxuan .box0{
+	margin-right: -14px;
+}
+.gouhuojingxuan a{
+	text-decoration: none;
+	color: #12937C;
+	font-size: 12px;
+}
+.gouhuojingxuan a:hover{
+	text-decoration: underline;
+	color: #ED585C;
+}
+.gouhuojingxuan .div2{
+	width: 100%;
+	height: 40px;
+	padding-top: 5px;
+}
+.gouhuojingxuan .div2 a{
+	padding: 0px 1px;
+	display: block;
+	font-size: 14px;
+	
+}
+.gouhuojingxuan p.p1{
+	color: #EB2624;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.gouhuojingxuan p.p1 span{
+	font-size: 12px;
+	color: #999999;
+	margin-left: 20px;
+	text-decoration: line-through;
+}
+.gouhuojingxuan p.p2{
+	font-size: 12px;
+	padding-left: 5px;
+	color: #999999;
+}
+.gouhuojingxuan p.p2 span{
+	float: right;
+	margin-right: 5px;
+}
+

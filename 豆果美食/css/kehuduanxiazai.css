@@ -1,0 +1,26 @@
+﻿.kehuduanxiazai p{
+	margin-bottom: 10px;
+}
+.kehuduanxiazai ul li{
+	display: block;
+	width: 68px;
+	height: 83px;
+	float: left;
+	/*border:1px solid red;*/
+	text-align: center;
+	margin-right: 20px;
+}
+
+.kehuduanxiazai ul li a i{
+	width: 60px;
+	height: 60px;
+	display: block;
+	background:url('../images/tinyapp.png');
+	background-position: 0px -45px;
+}
+.kehuduanxiazai ul li a i.i2{
+	background-position: 0px -115px;
+}
+.kehuduanxiazai ul li a i.i3{
+	background-position: 0px -185px;
+}

@@ -1,0 +1,65 @@
+﻿*{
+    margin: 0;padding: 0;
+}
+ .rementuijian{
+        box-sizing: border-box;
+        /*margin-top: 20px;*/
+        width: 300px;
+        /*height: 300px;*/
+        background-color: #FFFFFF;
+        border: 1px solid #DADBDC;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+        /*margin:20px auto;*/
+    }
+    .rementuijian h3{
+        font-size: 14px;
+        color:#333333;
+        background-color: #E3E3E3;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 10px;
+        font-weight: normal;
+        font-family: '微软雅黑';
+    }
+    .rementuijian ul{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px 0px;
+            padding-left: 10px;
+    }
+    .rementuijian ul li{
+        list-style: none;
+    }   
+    .rementuijian ul li a{
+        text-decoration: none;
+        font-family: '微软雅黑';
+        font-size: 13px;
+        color: #333333;
+        display: block;
+        /*letter-spacing:1px;*/
+        padding: 5px 0px;
+    }
+    .rementuijian ul li a i{
+        display: inline-block;
+        width: 1px;
+        height: 10px;
+        background: url('../images/竖形分割符（1x10px）.jpg') no-repeat;
+        margin: 0 5px;
+    }
+    .rementuijian ul li a:hover{
+        color: #9F0B0B;
+    }
+    .rementuijian ul li a span{
+        font-size: 12px;
+        font-family: "宋体";
+        color: #000000;
+        display: inline-block;
+        width: 27px;height: 17px; 
+        text-align: center;
+        position: relative;
+        left: 3px;
+        top: -10px;
+        background: url('../images/shejiao.png') no-repeat;
+        color: #fff;
+    }

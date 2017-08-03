@@ -1,0 +1,95 @@
+﻿.footer{
+	width: 940px;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 40px;
+}
+.footer ul{
+	margin-left: 280px;
+}
+.footer ul li{
+	/*display: inline-block;*/
+	font-size: 5px;
+	float: left;
+	margin: 0px 5px;
+	padding: 0px 5px;
+}
+.footer ul li:first-of-type{
+	margin-left: -5px;
+}
+.footer ul li a{
+	font-size: 12px;
+	color: #6B553F;
+	text-decoration: none;
+
+}
+.footer ul li a:hover{
+	text-decoration: underline;
+}
+.footer p{
+	color: #A599A5;
+	margin: 20px 0px;
+}
+.footer p a{
+	color: #A599A5;
+	text-decoration: none;
+}
+.footer p a:hover{
+	text-decoration: underline;
+}
+.footer .box{
+	width: 136px;
+	height: 22px;
+	margin-left: 290px;
+	padding-bottom: 10px;
+}
+.footer .box a{
+	display:inline-block;
+	/*border: 1px solid red;*/
+	text-decoration: none;
+	line-height: 22px;
+	border-radius: 3px;
+}
+.footer .box a:nth-of-type(1){
+	width: 62px;
+	height: 22px;
+	color: white;
+	background: url('../images/bg_flbtn.png') no-repeat;
+	background-position: -65px 0px;
+	margin-right: 5px;
+}
+.footer .box a:nth-of-type(1):hover{
+	background-position: -65px -23px;
+}
+.footer .box a:nth-of-type(1) i{
+	display: inline-block;
+	width: 16px;
+	height: 14px;
+	background: url('../images/bg_flbtn.png') no-repeat;
+	background-position: -190px 0px;
+	position: relative;
+	left: -3px;	
+	top: 2px;
+}
+.footer .box a:nth-of-type(2){
+	width: 65px;
+	height: 22px;
+	color: #333333;
+	border: 1px solid #ECD181;
+	position: relative;
+}
+.footer .box a:nth-of-type(2) i{
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	background: url('../images/bg_flbtn.png') no-repeat;
+	background-position: -190px -16px;
+	/*border: 1px solid #ECD181;*/
+	position: absolute;
+	left: -6px;
+	top: 8px;
+}
+.footer .box a:nth-of-type(2):hover{
+	color: #3EADD9;
+}

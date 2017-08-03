@@ -1,0 +1,103 @@
+.main table input{
+  width: 230px;
+  height: 20px;
+  border-style: none;
+  border: 1px solid #CCCCCC;
+}
+.main table tr:nth-of-type(4) input{
+  width: 65px;
+  height: 20px;
+  margin-right: 10px;
+}
+.main table tr:nth-of-type(4) input:nth-of-type(2){
+  margin-left: 20px;
+}
+.main table select{
+  width: 230px;
+  height: 20px;
+  border-style: none;
+  border: 1px solid #CCCCCC;
+}
+.main table textarea{
+  width: 520px;
+  height: 165px;
+  border-style: none;
+  border: 1px solid #CCCCCC;
+  margin-top: 10px;
+  resize:none;
+}
+.main table tr{
+  height: 40px;
+
+}
+.main button{
+  width: 120px;
+  height: 40px;
+  text-align: 120px;
+  line-height: 40px;
+  border-style: none;
+  /*position: relative;*/
+  box-sizing: border-box;
+  background: linear-gradient(to bottom,#fff,#F2F2F2,#fff);
+  border-radius: 20px;
+  border: 1px solid #CCCCCC;
+  margin: 20px 150px;
+  cursor: pointer;
+}
+.main button span{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url("../images/提交按钮图标.png") no-repeat;
+  /*position: absolute;*/
+  position: relative;
+  top: 5px;
+  margin-left: 10px;
+}
+.main{
+  position: relative;
+}
+.main .online{
+  width: 310px;
+  /*height: 310px;*/
+  position: absolute;
+  top:-12px;
+  right: 20px;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+.online img{
+  box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+  margin-bottom: 60px;
+}
+.online p{
+  margin: 5px 0px;
+}
+.online img:first-of-type{
+  box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+  transform: translate(20px,0) rotate(-15deg);
+}
+.online img:last-of-type{
+  box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+  transform: translate(0,60px) rotate(30deg);
+}
+.online p:first-of-type{
+  font-size: 14px;
+  color: #FF6C00;
+}
+.online p:nth-of-type(2){
+  font-size: 25px;
+  color: #B8582A;
+}
+.online p:nth-of-type(3){
+  font-size: 14px;
+  color: #4A2105;
+}
+.online p:nth-of-type(4){
+  font-size: 12px;
+  color: #405E8C;
+}
+.online p:nth-of-type(5){
+  font-size: 12px;
+  color: #405E8C;
+}

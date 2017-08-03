@@ -1,0 +1,51 @@
+﻿@charset "utf-8";      
+.pagination a {
+    	text-decoration: none;
+	border: 1px solid #9a3939;
+	color: #9f0b0b;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	-o-border-radius:20px;
+	border-radius:20px;
+	display: inline-block;
+	cursor: pointer;
+}
+a.pre,a.next{
+	display: inline-block;
+	float: left;
+}
+.pagination a{
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.pagination .current {
+    background: #9f0b0b;
+    color: #fff;
+    border: 1px solid #AAE;
+}
+.pagination .current.prev, .pagination .current.next{
+	color:#999;
+	border-color:#999;
+	background:#EBEBED;
+}
+/*自定义*/
+#Pagination{
+	float: left;
+	width: 880px;
+	text-align: center;
+	margin-top: 15px;
+}
+#Pagination>div{
+	margin: 0 auto;
+}
+.pages{
+	max-width: 330px;
+	height: 30px;
+	/*border: 1px solid red;*/
+}

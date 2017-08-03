@@ -1,0 +1,8 @@
+.main ul li{
+  margin-bottom: 15px;
+  }
+.main ul li a img{
+  width: 660px;
+  height: 170px;
+    box-shadow: 1px 1px 3px rgba(0,0, 0, .5);
+}
